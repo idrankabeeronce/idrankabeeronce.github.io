@@ -122,7 +122,7 @@ function deff(e) {
     box[0].style.transform = "translateY(-150px)";
     
          });
-setTimeout(che, 500)
+setTimeout(che, 1500);
 }
 
 function che() {
