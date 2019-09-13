@@ -130,3 +130,51 @@ function che() {
     box[0].style.transition = "transform 0.0s";
     
 }
+var ab_posi = 0;
+var ac_posi = 0;
+var turg = false;
+var position_x;
+var position_y;
+let res;
+var s;
+function turn_on() {
+    ab_posi = 0;
+    ac_posi = 0;
+    this.value = event.clientX;
+    var b = this.value;
+    this.value = event.clientY;
+        var c = this.value;
+    var alb = document.getElementsByClassName('album_m');
+    position_x = alb[0].style.left;
+    position_y = alb[0].style.top;
+    position_x = position_x.replace('px','');
+    position_y = position_y.replace('px','');
+    ab_posi = b - position_x;
+    ac_posi = c- position_y;
+    turg = true;
+}
+function turn () {
+    turg = false;
+    var alb = document.getElementsByClassName('album_m');
+    if (res_y<=50) {
+        alb[0].style.top = "50px";}
+    if (res_x<=0) {
+        alb[0].style.left = "0px";}
+}
+
+function movement() {
+    if (turg) {
+        this.value = event.clientX;
+        var b = this.value;
+        this.value = event.clientY;
+        var c = this.value;
+        res_y = c-ac_posi;
+        res_x = b-ab_posi;
+        var alb = document.getElementsByClassName('album_m');
+        
+        
+            alb[0].style.top = res_y + "px";
+            alb[0].style.left = res_x + "px";     
+        
+    }
+}

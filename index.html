@@ -35,6 +35,13 @@
     </div>
 </div>
     <div class="container">
+        <div class="album_m" onmousedown="turn_on()" onmousemove="movement()" onmouseup="turn()" onmouseleave="turn()" style="top: 50px; left: 200px;">
+            <div class="album_header">
+                <div class="album_bor">
+                    <div class="album_icon"></div>
+                </div>
+            </div>
+            <div class="table_s">
             <table id="table_m">
                 <tr>
                     <td  href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/01. Run.mp3">01 &emsp;&emsp;&emsp; Run</td>
@@ -79,6 +86,8 @@
                     <td href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/14. Drinking Lightning.mp3">14 &emsp;&emsp;&emsp; Drinking Lightning</td>
                 </tr>
             </table>
+                </div>
+        </div>
     </div>
     
     <script> document.getElementById('table_m').addEventListener('click', deff, false);
