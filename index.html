@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <!--<link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" 
+        rel="stylesheet"> -->
+        <title>Key Kloud</title>
+    <script type="text/javascript" src="js/js.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+</head>
+    
+<body>
+
+    <input id="isexpanded" type="checkbox">
+    <input id="is_but" type="checkbox">
+   
+<div class="header_in">
+    <div class="header_logo_n_s">
+        <div class="logo_n_n">
+            <a class ="logo" href ="index.html">
+            <img src="img/LOGO.png">
+             
+                <div class="name_logo">Key Kloud</div> 
+                
+        </a>
+             
+        </div>
+        <div class="navig">
+            <a class="nav_link" href ="index.html   ">Home</a>
+            <a class="nav_link" href =#>Settings</a>
+            <a class="nav_link" href =#>About</a>
+        </div>
+    </div>
+</div>
+    <div class="container">
+            <table id="table_m">
+                <tr>
+                    <td  href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/01. Run.mp3">01 &emsp;&emsp;&emsp; Run</td>
+                </tr>
+                <tr>
+                    <td href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/02. Fat Face.mp3">02 &emsp;&emsp;&emsp; Fat Face</td>
+                </tr>
+                <tr>
+                    <td href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/03. Hollow Moon (Bad Wolf).mp3">03 &emsp;&emsp;&emsp; Hollow Moon (Bad Wolf)</td>
+                </tr>
+                <tr>
+                    <td href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/04. Jailbreak.mp3">04 &emsp;&emsp;&emsp; Jailbreak</td>
+                </tr>
+                 <tr>
+                    <td href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/05. KOOKSEVERYWHERE!!!!.mp3">05 &emsp;&emsp;&emsp; KOOKSEVERYWHERE!!!!</td>
+                </tr>
+                <tr>
+                    <td href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/06. I Am.mp3">06 &emsp;&emsp;&emsp; I Am</td>
+                </tr>
+                <tr>
+                    <td href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/07. Headrest For My Soul.mp3">07 &emsp;&emsp;&emsp; Headrest For My Soul</td>
+                </tr>
+                <tr>
+                    <td href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/08. Dreamers.mp3">08 &emsp;&emsp;&emsp; Dreamers</td>
+                </tr>
+                <tr>
+                    <td href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/09. Windows.mp3">09 &emsp;&emsp;&emsp; Windows</td>
+                </tr>
+                <tr>
+                    <td href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/10. Holy Roller.mp3">10 &emsp;&emsp;&emsp; Holy Roller</td>
+                </tr>
+                <tr>
+                    <td href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/11. Woman Woman.mp3">11 &emsp;&emsp;&emsp; Woman Woman</td>
+                </tr>
+                <tr>
+                    <td href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/12. Lie Love Live Love.mp3">12 &emsp;&emsp;&emsp; Lie Love Live Love</td>
+                </tr>
+                <tr>
+                    <td href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/13. Like People, Like Plastic.mp3">13 &emsp;&emsp;&emsp; Like People, Like Plastic</td>
+                </tr>
+                <tr>
+                    <td href="#" data-value="music/AWOLNATION%20%E2%80%93%20Run%20(2015)/14. Drinking Lightning.mp3">14 &emsp;&emsp;&emsp; Drinking Lightning</td>
+                </tr>
+            </table>
+    </div>
+    
+    <script> document.getElementById('table_m').addEventListener('click', deff, false);
+    </script>
+    
+    <div class="player_box">
+        <div class="p_b_zone"></div>
+        <div class="player_b_zone">
+        <a><label for="is_but" class="play_b" onclick="play_song(), duration()">
+            <div class="img_play_b"></div>
+            </label></a>
+        </div>
+        
+        <div class="player">
+            <div class="player_w_zone">
+                <div class="sound_box">
+                  
+                    <div class="sound_bar" onmousedown="track_down(),vol_drag(), vol_song()" onmousemove="vol_drag(), vol_song()" onmouseleave="track_leave(), vol_song()" onmouseup="track_up(), vol_song()">
+                    
+                        <div class="sound_progress_bar" >
+                          <div class="sound_z"><a class="sound_bar_b"></a></div>
+                                  
+                    </div>
+                    </div>
+                </div>
+                <div class="next_box">
+                    
+                    <div class="prev_b">
+                        <a class="prev_b_ic"></a>
+                    </div>
+                    
+                    <div class="next_b">
+                        <a class="next_b_ic"></a>
+                    </div>
+                    
+                </div>
+                <div class="run_box">
+                    <div class="run_bar" onmousedown="set_duration()">
+                        <div class="run_progress_bar" ></div>
+                    </div>
+                </div>
+                <div class="but_box">
+                    <div class="but_shuf">
+                        <a class="shuf"></a>
+                    </div>
+                    <div class="but_repeat">
+                        <a class="repeat"></a>
+                    </div>
+                    <div class="but_like">
+                        <a class="like"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="left_opt">
+
+        <div class="left_b">
+            <a>
+                <label for="isexpanded"  id="left_b_arrow"></label>
+            </a>
+            </div>
+   
+        
+
+        <div class="left_menu">
+            <div class="panels">
+                <div class="panel_sh">   
+                    <a class="panel_sh_img" href="http://vk.com">
+                        <div class="panel_sh_img_ava"></div>
+                    </a>
+                    <h4>RePack</h4>
+                    <h3>Guest</h3>
+                </div>
+                <div class="panel_1"><a href=#><h2>Account</h2></a></div>
+                <div class="panel_2"><a href=#><h2>Music Library</h2></a></div>
+                <div class="panel_3"><a href=http://youtube.com><h2>YouTube</h2></a></div>
+                <div class="panel_4"><a href=#><h2>Account</h2></a></div>
+                <div class="panel_5"><a href=#><h2>Account</h2></a></div>
+                <div class="panel_6"><a href=#><h2>Account</h2></a></div>
+                <div class="panel_7"><a href=#><h2>Account</h2></a></div>
+                <div class="panel_end">
+                    <audio id="audS" autoplay controls="ctrls">
+                        <source id="mp3Source" src="">
+                    </audio>
+                </div>
+            </div> 
+        </div> 
+    </div>
+</body>
+</html>
