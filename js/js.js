@@ -102,13 +102,16 @@ function deff(e) {
     var audio = document.getElementById('audS');  
     
         
-
-    var song = elm.getAttribute('data-value');
+    var folder = elm.getAttribute('data-value');
+    var song = elm.getAttribute('data-song');
+     var artist = document.getElementById('table_m').getAttribute('data-artist');
         
         
             var source = document.getElementById('mp3Source');
-            source.src = song; 
+            source.src = folder + song + '.mp3'; 
           audio.load();
+        document.getElementsByClassName('name_s')[0].innerHTML = artist+' - '+song;
+            
     var butt_play = document.getElementById('is_but'); 
     butt_play.checked=true;
     mark=butt_play.checked;
@@ -135,7 +138,8 @@ var ac_posi = 0;
 var turg = false;
 var position_x;
 var position_y;
-let res;
+let res_y;
+let res_x;
 var s;
 function turn_on() {
     ab_posi = 0;
