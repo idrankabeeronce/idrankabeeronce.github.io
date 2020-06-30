@@ -90,7 +90,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AppComponent = function AppComponent() {
       _classCallCheck(this, AppComponent);
 
-      this.title = 'testAPP';
+      this.title = 'Covid-19';
     };
 
     AppComponent.ɵfac = function AppComponent_Factory(t) {
@@ -258,55 +258,43 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var src_app_prem__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
-    /*! src/app/prem */
-    "./src/app/prem.ts");
-    /* harmony import */
-
-
-    var _out_graph_out_graph_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
+    var _out_graph_out_graph_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
     /*! ./out-graph/out-graph.component */
     "./src/app/out-graph/out-graph.component.ts");
     /* harmony import */
 
 
-    var _header_header_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+    var _header_header_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
     /*! ./header/header.component */
     "./src/app/header/header.component.ts");
     /* harmony import */
 
 
-    var _main_content_main_content_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
+    var _main_content_main_content_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
     /*! ./main-content/main-content.component */
     "./src/app/main-content/main-content.component.ts");
     /* harmony import */
 
 
-    var _home_home_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
+    var _home_home_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
     /*! ./home/home.component */
     "./src/app/home/home.component.ts");
     /* harmony import */
 
 
-    var _news_news_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
+    var _news_news_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
     /*! ./news/news.component */
     "./src/app/news/news.component.ts");
-    /* harmony import */
-
-
-    var _angular_common_http__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
-    /*! @angular/common/http */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
 
     var appRoutes = [{
       path: '',
-      component: _home_home_component__WEBPACK_IMPORTED_MODULE_22__["HomeComponent"]
+      component: _home_home_component__WEBPACK_IMPORTED_MODULE_21__["HomeComponent"]
     }, {
       path: 'main',
-      component: _main_content_main_content_component__WEBPACK_IMPORTED_MODULE_21__["MainContentComponent"]
+      component: _main_content_main_content_component__WEBPACK_IMPORTED_MODULE_20__["MainContentComponent"]
     }, {
       path: 'news',
-      component: _news_news_component__WEBPACK_IMPORTED_MODULE_23__["NewsComponent"]
+      component: _news_news_component__WEBPACK_IMPORTED_MODULE_22__["NewsComponent"]
     }, {
       path: '**',
       redirectTo: '/'
@@ -324,14 +312,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       factory: function AppModule_Factory(t) {
         return new (t || AppModule)();
       },
-      providers: [src_app_prem__WEBPACK_IMPORTED_MODULE_18__["ParamsModel"]],
-      imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(appRoutes), _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_6__["MatButtonModule"], _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_7__["MatButtonToggleModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__["MatIconModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_10__["MatInputModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_11__["MatSelectModule"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_12__["MatSidenavModule"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_13__["MatSortModule"], _angular_material_table__WEBPACK_IMPORTED_MODULE_14__["MatTableModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_15__["MatToolbarModule"], _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_16__["ScrollingModule"], highcharts_angular__WEBPACK_IMPORTED_MODULE_17__["HighchartsChartModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_24__["HttpClientModule"]]]
+      providers: [],
+      imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(appRoutes), _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_6__["MatButtonModule"], _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_7__["MatButtonToggleModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__["MatIconModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_10__["MatInputModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_11__["MatSelectModule"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_12__["MatSidenavModule"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_13__["MatSortModule"], _angular_material_table__WEBPACK_IMPORTED_MODULE_14__["MatTableModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_15__["MatToolbarModule"], _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_16__["ScrollingModule"], highcharts_angular__WEBPACK_IMPORTED_MODULE_17__["HighchartsChartModule"]]]
     });
 
     (function () {
       (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, {
-        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _out_graph_out_graph_component__WEBPACK_IMPORTED_MODULE_19__["OutGraphComponent"], _header_header_component__WEBPACK_IMPORTED_MODULE_20__["HeaderComponent"], _main_content_main_content_component__WEBPACK_IMPORTED_MODULE_21__["MainContentComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_22__["HomeComponent"], _news_news_component__WEBPACK_IMPORTED_MODULE_23__["NewsComponent"]],
-        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_6__["MatButtonModule"], _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_7__["MatButtonToggleModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__["MatIconModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_10__["MatInputModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_11__["MatSelectModule"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_12__["MatSidenavModule"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_13__["MatSortModule"], _angular_material_table__WEBPACK_IMPORTED_MODULE_14__["MatTableModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_15__["MatToolbarModule"], _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_16__["ScrollingModule"], highcharts_angular__WEBPACK_IMPORTED_MODULE_17__["HighchartsChartModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_24__["HttpClientModule"]]
+        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _out_graph_out_graph_component__WEBPACK_IMPORTED_MODULE_18__["OutGraphComponent"], _header_header_component__WEBPACK_IMPORTED_MODULE_19__["HeaderComponent"], _main_content_main_content_component__WEBPACK_IMPORTED_MODULE_20__["MainContentComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_21__["HomeComponent"], _news_news_component__WEBPACK_IMPORTED_MODULE_22__["NewsComponent"]],
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_6__["MatButtonModule"], _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_7__["MatButtonToggleModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__["MatIconModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_10__["MatInputModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_11__["MatSelectModule"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_12__["MatSidenavModule"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_13__["MatSortModule"], _angular_material_table__WEBPACK_IMPORTED_MODULE_14__["MatTableModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_15__["MatToolbarModule"], _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_16__["ScrollingModule"], highcharts_angular__WEBPACK_IMPORTED_MODULE_17__["HighchartsChartModule"]]
       });
     })();
     /*@__PURE__*/
@@ -341,9 +329,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
-          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _out_graph_out_graph_component__WEBPACK_IMPORTED_MODULE_19__["OutGraphComponent"], _header_header_component__WEBPACK_IMPORTED_MODULE_20__["HeaderComponent"], _main_content_main_content_component__WEBPACK_IMPORTED_MODULE_21__["MainContentComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_22__["HomeComponent"], _news_news_component__WEBPACK_IMPORTED_MODULE_23__["NewsComponent"]],
-          imports: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(appRoutes), _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_6__["MatButtonModule"], _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_7__["MatButtonToggleModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__["MatIconModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_10__["MatInputModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_11__["MatSelectModule"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_12__["MatSidenavModule"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_13__["MatSortModule"], _angular_material_table__WEBPACK_IMPORTED_MODULE_14__["MatTableModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_15__["MatToolbarModule"], _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_16__["ScrollingModule"], highcharts_angular__WEBPACK_IMPORTED_MODULE_17__["HighchartsChartModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_24__["HttpClientModule"]],
-          providers: [src_app_prem__WEBPACK_IMPORTED_MODULE_18__["ParamsModel"]],
+          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _out_graph_out_graph_component__WEBPACK_IMPORTED_MODULE_18__["OutGraphComponent"], _header_header_component__WEBPACK_IMPORTED_MODULE_19__["HeaderComponent"], _main_content_main_content_component__WEBPACK_IMPORTED_MODULE_20__["MainContentComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_21__["HomeComponent"], _news_news_component__WEBPACK_IMPORTED_MODULE_22__["NewsComponent"]],
+          imports: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(appRoutes), _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_6__["MatButtonModule"], _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_7__["MatButtonToggleModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__["MatIconModule"], _angular_material_input__WEBPACK_IMPORTED_MODULE_10__["MatInputModule"], _angular_material_select__WEBPACK_IMPORTED_MODULE_11__["MatSelectModule"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_12__["MatSidenavModule"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_13__["MatSortModule"], _angular_material_table__WEBPACK_IMPORTED_MODULE_14__["MatTableModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_15__["MatToolbarModule"], _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_16__["ScrollingModule"], highcharts_angular__WEBPACK_IMPORTED_MODULE_17__["HighchartsChartModule"]],
+          providers: [],
           bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
         }]
       }], null, null);
@@ -1181,9 +1169,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var src_app_prem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-    /*! src/app/prem */
-    "./src/app/prem.ts");
+    var src_app_params_model_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! src/app/params-model.service */
+    "./src/app/params-model.service.ts");
     /* harmony import */
 
 
@@ -1596,7 +1584,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }();
 
     MainContentComponent.ɵfac = function MainContentComponent_Factory(t) {
-      return new (t || MainContentComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_prem__WEBPACK_IMPORTED_MODULE_4__["ParamsModel"]));
+      return new (t || MainContentComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_params_model_service__WEBPACK_IMPORTED_MODULE_4__["ParamsModelService"]));
     };
 
     MainContentComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
@@ -1795,7 +1783,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }], function () {
         return [{
-          type: src_app_prem__WEBPACK_IMPORTED_MODULE_4__["ParamsModel"]
+          type: src_app_params_model_service__WEBPACK_IMPORTED_MODULE_4__["ParamsModelService"]
         }];
       }, null);
     })();
@@ -3237,9 +3225,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var src_app_prem__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-    /*! src/app/prem */
-    "./src/app/prem.ts");
+    var src_app_params_model_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! src/app/params-model.service */
+    "./src/app/params-model.service.ts");
     /* harmony import */
 
 
@@ -3525,7 +3513,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }();
 
     OutGraphComponent.ɵfac = function OutGraphComponent_Factory(t) {
-      return new (t || OutGraphComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_prem__WEBPACK_IMPORTED_MODULE_6__["ParamsModel"]));
+      return new (t || OutGraphComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_params_model_service__WEBPACK_IMPORTED_MODULE_6__["ParamsModelService"]));
     };
 
     OutGraphComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
@@ -3984,7 +3972,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }], function () {
         return [{
-          type: src_app_prem__WEBPACK_IMPORTED_MODULE_6__["ParamsModel"]
+          type: src_app_params_model_service__WEBPACK_IMPORTED_MODULE_6__["ParamsModelService"]
         }];
       }, {
         parentData: [{
@@ -4183,23 +4171,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/prem.ts":
-  /*!*************************!*\
-    !*** ./src/app/prem.ts ***!
-    \*************************/
+  "./src/app/params-model.service.ts":
+  /*!*****************************************!*\
+    !*** ./src/app/params-model.service.ts ***!
+    \*****************************************/
 
-  /*! exports provided: ParamsModel */
+  /*! exports provided: ParamsModelService */
 
   /***/
-  function srcAppPremTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppParamsModelServiceTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony export (binding) */
 
 
-    __webpack_require__.d(__webpack_exports__, "ParamsModel", function () {
-      return ParamsModel;
+    __webpack_require__.d(__webpack_exports__, "ParamsModelService", function () {
+      return ParamsModelService;
     });
     /* harmony import */
 
@@ -4222,16 +4210,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, item);
     };
 
-    var ParamsModel = /*#__PURE__*/function () {
-      function ParamsModel() {
-        _classCallCheck(this, ParamsModel);
+    var ParamsModelService = /*#__PURE__*/function () {
+      function ParamsModelService() {
+        _classCallCheck(this, ParamsModelService);
 
         this.items = src_app_df_json__WEBPACK_IMPORTED_MODULE_1__;
         this.chosenitmf = this.items[0];
         this.chosenitms = this.items[1];
       }
 
-      _createClass(ParamsModel, [{
+      _createClass(ParamsModelService, [{
         key: "setParams",
         value: function setParams(param) {
           this.chosenitmf = param;
@@ -4243,23 +4231,29 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       }]);
 
-      return ParamsModel;
+      return ParamsModelService;
     }();
 
-    ParamsModel.ɵfac = function ParamsModel_Factory(t) {
-      return new (t || ParamsModel)();
+    ParamsModelService.ɵfac = function ParamsModelService_Factory(t) {
+      return new (t || ParamsModelService)();
     };
 
-    ParamsModel.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
-      token: ParamsModel,
-      factory: ParamsModel.ɵfac
+    ParamsModelService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
+      token: ParamsModelService,
+      factory: ParamsModelService.ɵfac,
+      providedIn: 'root'
     });
     /*@__PURE__*/
 
     (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ParamsModel, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
-      }], null, null);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ParamsModelService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+        args: [{
+          providedIn: 'root'
+        }]
+      }], function () {
+        return [];
+      }, null);
     })();
     /***/
 
