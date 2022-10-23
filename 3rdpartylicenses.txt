@@ -66,9 +66,6 @@ MIT
 @angular/router
 MIT
 
-highcharts
-https://www.highcharts.com/license
-
 highcharts-angular
 SEE LICENSE IN <LICENSE>
 
