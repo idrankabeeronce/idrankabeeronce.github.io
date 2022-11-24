@@ -308,7 +308,7 @@
                 "items": [
                     {
                         "name": "NEO USB A Charger 5W",
-                        "dateOfRelease": "2022-11-11",
+                        "dateOfRelease": "2022-11-20",
                         "properties": {
                             "color": "black",
                             "watt": 5,
@@ -321,7 +321,7 @@
                     },
                     {
                         "name": "NEO USB A Charger 5W",
-                        "dateOfRelease": "2022-11-11",
+                        "dateOfRelease": "2022-11-20",
                         "properties": {
                             "color": "blue",
                             "watt": 5,
@@ -334,7 +334,7 @@
                     },
                     {
                         "name": "NEO Wireless USB C Charger 10W",
-                        "dateOfRelease": "2022-11-11",
+                        "dateOfRelease": "2022-11-21",
                         "properties": {
                             "color": "blue",
                             "watt": 10,
@@ -347,7 +347,7 @@
                     },
                     {
                         "name": "NEO Wireless USB C Charger 10W",
-                        "dateOfRelease": "2022-11-11",
+                        "dateOfRelease": "2022-11-21",
                         "properties": {
                             "color": "black",
                             "watt": 10,
